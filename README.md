@@ -1,73 +1,65 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Shahryar Tractor Parts | فروشگاه شهریار
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shahryar Tractor Parts is a responsive, modern website built to showcase and connect with customers seeking spare parts for vintage tractors in Iran. Developed using React, TypeScript, and Tailwind CSS, the project aims to deliver a fast, simple, and trustworthy experience for farmers and repair professionals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Clean, modern design with Persian font (Vazir)
+- Fully responsive (mobile, tablet, desktop)
+- Multi-page layout using React Router:
+  - Home
+  - About Us
+  - Contact
+- Embedded Google Map with store location
+- Simple contact form (expandable)
+- SEO optimized using React Helmet
+- Ready for deployment on Vercel
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠 Technologies Used
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+| Technology      | Purpose                          |
+|----------------|----------------------------------|
+| React + TypeScript | Component-based architecture |
+| Tailwind CSS    | Fast and responsive styling     |
+| React Router    | Page navigation                 |
+| React Helmet    | SEO optimization                |
+| Google Maps iframe | Store location display      |
+| Vercel          | Fast and secure deployment      |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📷 Demo & Screenshots
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+> Live Demo: [View Website](https://your-vercel-link.vercel.app)  
+> *(Replace with your actual deployed link)*
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# foroshgah-shahryar
->>>>>>> 9c3bf36539429895e58d210ea998b5bc40ff1097
+---
+
+## 📁 Project Structure
+
+src/ ├── components/ │ ├── Header.tsx │ ├── Navbar.tsx │ ├── Footer.tsx ├── pages/ │ ├── Home.tsx │ ├── About.tsx │ ├── Contact.tsx ├── App.tsx ├── main.tsx
+
+Code
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/shahryar-tractor-parts.git
+cd shahryar-tractor-parts
+npm install
+npm run dev
+🏪 Store Information
+Owner: Haj Hossein Elyat
+
+Address: Naser Khosrow St., Imam Khomeini Square, Post Alley, Naser Khosrow Passage, 3rd Floor, Unit 5
+
+Phone: +98 912 123 4567
+
+👨‍💻 Developer
+Soroush Elyat Frontend developer passionate about building real-world solutions for local markets in Iran 🇮🇷
