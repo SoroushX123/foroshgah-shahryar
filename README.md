@@ -62,4 +62,4 @@ Address: Naser Khosrow St., Imam Khomeini Square, Post Alley, Naser Khosrow Pass
 Phone: +98 912 123 4567
 
 👨‍💻 Developer
-(Soroush-Iliyat)[https://github.com/SoroushX123/] Elyat Frontend developer passionate about building real-world solutions for local markets in Iran 🇮🇷
+(Soroush-Iliyat)[https://github.com/SoroushX123/] Frontend developer passionate about building real-world solutions for local markets in Iran 🇮🇷
